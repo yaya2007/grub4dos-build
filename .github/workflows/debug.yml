@@ -8,7 +8,7 @@ jobs:
 
   build1:
     name: build 0.4.5 with gcc-multilib
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     env:
       DEBUG_ACTION: true
       TIMEOUT_CONTINUE: 1
@@ -39,7 +39,7 @@ jobs:
 
   build2:
     name: build 0.4.5 with qemu
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     env:
       DEBUG_ACTION: true
       TIMEOUT_CONTINUE: 1
