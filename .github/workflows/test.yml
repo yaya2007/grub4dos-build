@@ -8,7 +8,7 @@ jobs:
 
   build1:
     name: build 0.4.5 with gcc-multilib
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v2
     - name: 下载 grub4dos 0.4.5c 版最新源码
@@ -24,7 +24,7 @@ jobs:
         useQemu: 0
   build2:
     name: build 0.4.6a with gcc-multilib
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v2
     - name: 下载 grub4dos 0.4.6a 版最新源码
@@ -45,7 +45,7 @@ jobs:
         srcDir: "0.4.6a"
   build3:
     name: build efi with gcc-multilib
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v2
     - name: 下载 grub4dos efi 版最新源码
