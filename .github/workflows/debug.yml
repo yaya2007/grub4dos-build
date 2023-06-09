@@ -55,4 +55,4 @@ jobs:
       uses: ./
       with:
         srcDir: "efi"
-        useQemu: 1
+        useQemu: 0
