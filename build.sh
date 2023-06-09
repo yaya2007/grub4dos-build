@@ -42,7 +42,7 @@ do
             make -j -C src bin/undionly.pxe
             cd ..
         fi
-        CC=gcc-4.8 ./build
+        CC=gcc-11 ./build
     fi
 
     GRUB4DOS_BIN=`ls grub4dos-$GRUB4DOS_VER-*.7z`
