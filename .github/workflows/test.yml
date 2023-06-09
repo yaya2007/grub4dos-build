@@ -74,7 +74,7 @@ jobs:
     name: build efi with qemu
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: 下载 grub4dos efi 版最新源码
       uses: actions/checkout@v3
       with:
